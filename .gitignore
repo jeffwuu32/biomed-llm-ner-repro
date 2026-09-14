@@ -1,0 +1,18 @@
+# General
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+.venv/
+
+# Downloaded raw corpora + this script's output.
+raw/
+*.zip
+
+# Artifacts (logs, eval results, etc.)
+artifacts/
+eval_results_*.json
+
+# Helper scripts, not needed for now
+utils/
